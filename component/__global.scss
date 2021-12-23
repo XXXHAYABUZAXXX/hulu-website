@@ -21,6 +21,7 @@ ul {
 
 a {
   color: $clr-white;
+  text-decoration: none;
 
   &:hover {
     color: $clr-gray;
@@ -32,14 +33,22 @@ img {
   width: 100%;
 }
 
-.header {
-  height: 530px;
-  background: url("../image/header.jpg") no-repeat center center / cover;
-
-  &__content {
-    .logo {
-      width: 270px;
-      margin: 20px 0;
-    }
-  }
+.btn {
+  display: inline-block;
+  background: $clr-white;
+  color: $clr-darkgray;
+  padding: 20px 23px;
+  min-width: 135px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
