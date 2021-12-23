@@ -15,6 +15,17 @@ body {
   overflow-x: hidden;
 }
 
+h4 {
+  font-size: 13px;
+  color: $clr-lightgreen;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 300;
+}
+
 ul {
   list-style: none;
 }

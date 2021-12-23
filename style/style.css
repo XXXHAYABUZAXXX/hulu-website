@@ -15,6 +15,17 @@ body {
   overflow-x: hidden;
 }
 
+h4 {
+  font-size: 13px;
+  color: #00ed82;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 300;
+}
+
 ul {
   list-style: none;
 }
@@ -102,12 +113,6 @@ img {
   }
 }
 
-.header__content h4 {
-  font-size: 13px;
-  color: #00ed82;
-  text-transform: uppercase;
-}
-
 .header__content .logo {
   width: 270px;
   margin: 20px 0;
@@ -150,5 +155,33 @@ img {
           align-items: center;
   padding: 30px 40px;
   background: linear-gradient(318.68deg, #0f495c 0%, #0d3640 49.72%, #08141f 100%);
+}
+
+.sub-header > div:last-child {
+  justify-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.sub-header > div:last-child .sub-link {
+  text-align: center;
+}
+
+.sub-header .sub-link {
+  display: block;
+  color: #ccc;
+  font-size: 12px;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+.sub-header .btn-outline {
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.sub-header .btn-outline:hover {
+  border-color: #ccc;
 }
 /*# sourceMappingURL=style.css.map */

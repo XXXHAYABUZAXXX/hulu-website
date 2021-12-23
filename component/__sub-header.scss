@@ -10,4 +10,31 @@
     #0d3640 49.72%,
     #08141f 100%
   );
+
+  & > div:last-child {
+    justify-self: flex-end;
+    align-self: flex-end;
+
+    .sub-link {
+      text-align: center;
+    }
+  }
+
+  .sub-link {
+    display: block;
+    color: $clr-gray;
+    font-size: 12px;
+    margin-top: 5px;
+    text-decoration: underline;
+  }
+
+  .btn-outline {
+    background: none;
+    color: $clr-white;
+    border: 2px solid $clr-white;
+
+    &:hover {
+      border-color: $clr-gray;
+    }
+  }
 }
