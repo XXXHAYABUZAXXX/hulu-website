@@ -15,8 +15,29 @@
     justify-self: flex-end;
     align-self: flex-end;
 
+    // ipad screen
+    @media (max-width: 768px) {
+      justify-self: center;
+      align-self: center;
+    }
+
     .sub-link {
       text-align: center;
+    }
+  }
+
+  // ipad screen
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  img {
+    // ipad screen
+    @media (max-width: 768px) {
+      width: 250px;
+      margin: auto;
     }
   }
 

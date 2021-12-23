@@ -163,8 +163,34 @@ img {
       align-self: flex-end;
 }
 
+@media (max-width: 768px) {
+  .sub-header > div:last-child {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
 .sub-header > div:last-child .sub-link {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .sub-header {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .sub-header img {
+    width: 250px;
+    margin: auto;
+  }
 }
 
 .sub-header .sub-link {
