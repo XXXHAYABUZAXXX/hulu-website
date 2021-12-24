@@ -44,11 +44,22 @@
     .header-text-1 {
       font-size: 22px;
       font-weight: bold;
+
+      // ipad screen
+      @media (max-width: 768px) {
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
     }
 
     .header-text-2 {
       font-size: 18px;
       margin: 25px 0;
+
+      // ipad screen
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
 
     .btn-cta:hover {
