@@ -23,6 +23,11 @@
 
     .sub-link {
       text-align: center;
+
+      // ipad screen
+      @media (max-width: 768px) {
+        display: inline-block;
+      }
     }
   }
 
@@ -56,6 +61,11 @@
 
     &:hover {
       border-color: $clr-gray;
+    }
+
+    // ipad screen
+    @media (max-width: 768px) {
+      display: block;
     }
   }
 }

@@ -2,10 +2,29 @@
   height: 530px;
   background: url("../image/header.jpg") no-repeat center center / cover;
 
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+
+    height: 180px;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.76) 15.54%,
+      rgba(0, 0, 0, 0.192) 60.23%,
+      rgba(0, 0, 0, 8e-5) 100%
+    );
+  }
+
   nav {
     display: flex;
     justify-content: flex-end;
     padding: 20px 40px;
+
+    position: relative;
+    z-index: 2;
 
     .login-btn {
       background: none;
