@@ -1,0 +1,40 @@
+.live {
+  background: $clr-lightblack;
+  padding: 40px;
+
+  .live-border {
+    border: 4px solid $clr-bordergreen;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    // ipad screen
+    @media (max-width: 768px) {
+      padding: 30px 10px;
+    }
+
+    .text-xl {
+      // ipad screen
+      @media (max-width: 768px) {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+    }
+
+    a {
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-top: 20px;
+      text-decoration: underline;
+    }
+  }
+}

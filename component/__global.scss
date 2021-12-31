@@ -63,3 +63,31 @@ img {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+
+.text-legal {
+  font-size: 10px;
+  color: $clr-gray;
+  margin-top: 20px;
+}
+
+.text-xl {
+  font-size: 70px;
+  font-weight: bold;
+
+  // ipad screen
+  @media (max-width: 768px) {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
+
+.text-sub {
+  max-width: 850px;
+  font-size: 24px;
+  margin-bottom: 10px;
+
+  // ipad screen
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}

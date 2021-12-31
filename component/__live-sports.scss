@@ -1,0 +1,47 @@
+.live-sports {
+  background: url("/image/live-sports.jpg") no-repeat center center / cover;
+  height: 800px;
+  position: relative;
+
+  // ipad screen
+  @media (max-width: 768px) {
+    background: url("/image/live-sports-small.jpg") no-repeat center
+      center/cover;
+  }
+
+  &-content {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    max-width: 550px;
+
+    // ipad screen
+    @media (max-width: 768px) {
+      top: 30px;
+      left: 30px;
+      margin-top: 60px;
+    }
+
+    &-logo {
+      width: 300px;
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & > div {
+        background: url("/image/network-logo-bg.png") no-repeat center
+          center/cover;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+}
