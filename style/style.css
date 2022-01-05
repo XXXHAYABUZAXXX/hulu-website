@@ -457,4 +457,89 @@ img {
 .live-sports-content-logo img {
   width: 40px;
 }
+
+.footer {
+  background: #ebedf2;
+  color: #333;
+}
+
+.footer .footer-container {
+  padding: 0 140px;
+}
+
+.footer .footer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 33px 0;
+}
+
+.footer .footer-row .footer-section {
+  padding: 0 8px;
+}
+
+.footer .footer-row .footer-section h3 {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 0;
+}
+
+.footer .footer-row .footer-section a {
+  font-size: 14px;
+  color: #656b7b;
+}
+
+.footer .footer-row .footer-section a:hover {
+  color: #3370bb;
+}
+
+.footer .footer-row .footer-section:first-child {
+  -ms-flex-preferred-size: 66.66667%;
+      flex-basis: 66.66667%;
+}
+
+.footer .footer-row .footer-section:first-child > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-row .footer-section:first-child > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.footer .footer-row .footer-section:nth-child(2), .footer .footer-row .footer-section:last-child {
+  -ms-flex-preferred-size: 16.66667%;
+      flex-basis: 16.66667%;
+}
+
+.footer .footer-row .footer-section:nth-child(2) > div, .footer .footer-row .footer-section:last-child > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-row .footer-section:nth-child(2) > div > div, .footer .footer-row .footer-section:last-child > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer a {
+  color: #333;
+}
 /*# sourceMappingURL=style.css.map */
