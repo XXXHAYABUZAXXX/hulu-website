@@ -4,6 +4,11 @@
 
   .footer-container {
     padding: 0 140px;
+
+    // ipad screen
+    @media (max-width: 768px) {
+      padding: 0 20px;
+    }
   }
 
   .footer-list {
@@ -12,13 +17,28 @@
       flex-wrap: wrap;
       padding: 33px 0;
 
+      // ipad screen
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
       .footer-section {
         padding: 0 8px;
+
+        // ipad screen
+        @media (max-width: 768px) {
+          border-bottom: 1px solid $clr-divider;
+        }
 
         h3 {
           font-size: 15px;
           font-weight: 500;
           padding: 8px 0;
+
+          // ipad screen
+          @media (max-width: 768px) {
+            padding: 33px 0;
+          }
         }
 
         a {
@@ -37,10 +57,20 @@
           & > div {
             display: flex;
 
+            // ipad screen
+            @media (max-width: 768px) {
+              flex-direction: column;
+            }
+
             & > div {
               display: flex;
               flex-direction: column;
               flex-basis: 25%;
+
+              // ipad screen
+              @media (max-width: 768px) {
+                padding-bottom: 16px;
+              }
             }
           }
         }
@@ -55,6 +85,11 @@
             & > div {
               display: flex;
               flex-direction: column;
+
+              // ipad screen
+              @media (max-width: 768px) {
+                padding-bottom: 16px;
+              }
             }
           }
         }

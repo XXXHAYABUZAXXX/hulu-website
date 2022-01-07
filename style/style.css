@@ -467,6 +467,12 @@ img {
   padding: 0 140px;
 }
 
+@media (max-width: 768px) {
+  .footer .footer-container {
+    padding: 0 20px;
+  }
+}
+
 .footer .footer-list .footer-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -476,14 +482,35 @@ img {
   padding: 33px 0;
 }
 
+@media (max-width: 768px) {
+  .footer .footer-list .footer-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .footer .footer-list .footer-row .footer-section {
   padding: 0 8px;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-list .footer-row .footer-section {
+    border-bottom: 1px solid #dcdfe6;
+  }
 }
 
 .footer .footer-list .footer-row .footer-section h3 {
   font-size: 15px;
   font-weight: 500;
   padding: 8px 0;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-list .footer-row .footer-section h3 {
+    padding: 33px 0;
+  }
 }
 
 .footer .footer-list .footer-row .footer-section a {
@@ -507,6 +534,15 @@ img {
   display: flex;
 }
 
+@media (max-width: 768px) {
+  .footer .footer-list .footer-row .footer-section:first-child > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .footer .footer-list .footer-row .footer-section:first-child > div > div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -517,6 +553,12 @@ img {
           flex-direction: column;
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-list .footer-row .footer-section:first-child > div > div {
+    padding-bottom: 16px;
+  }
 }
 
 .footer .footer-list .footer-row .footer-section:nth-child(2), .footer .footer-list .footer-row .footer-section:last-child {
@@ -538,6 +580,12 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-list .footer-row .footer-section:nth-child(2) > div > div, .footer .footer-list .footer-row .footer-section:last-child > div > div {
+    padding-bottom: 16px;
+  }
 }
 
 .footer .footer-list .divider {
