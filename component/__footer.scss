@@ -37,6 +37,7 @@
 
           // ipad screen
           @media (max-width: 768px) {
+            font-size: 16px;
             padding: 33px 0;
           }
         }
@@ -46,6 +47,11 @@
           color: $clr-graylight;
           padding-bottom: 6px;
 
+          // ipad screen
+          @media (max-width: 768px) {
+            font-size: 15px;
+          }
+
           &:hover {
             color: $clr-lightblue;
           }
@@ -54,7 +60,7 @@
         &:first-child {
           flex-basis: 66.66667%;
 
-          & > div {
+          & > .footer-info {
             display: flex;
 
             // ipad screen
@@ -62,7 +68,7 @@
               flex-direction: column;
             }
 
-            & > div {
+            & > .footer-article {
               display: flex;
               flex-direction: column;
               flex-basis: 25%;
@@ -79,10 +85,10 @@
         &:last-child {
           flex-basis: 16.66667%;
 
-          & > div {
+          & > .footer-info {
             display: flex;
 
-            & > div {
+            & > .footer-article {
               display: flex;
               flex-direction: column;
 

@@ -509,6 +509,7 @@ img {
 
 @media (max-width: 768px) {
   .footer .footer-list .footer-row .footer-section h3 {
+    font-size: 16px;
     padding: 33px 0;
   }
 }
@@ -517,6 +518,12 @@ img {
   font-size: 14px;
   color: #656b7b;
   padding-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-list .footer-row .footer-section a {
+    font-size: 15px;
+  }
 }
 
 .footer .footer-list .footer-row .footer-section a:hover {
@@ -528,14 +535,14 @@ img {
       flex-basis: 66.66667%;
 }
 
-.footer .footer-list .footer-row .footer-section:first-child > div {
+.footer .footer-list .footer-row .footer-section:first-child > .footer-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 768px) {
-  .footer .footer-list .footer-row .footer-section:first-child > div {
+  .footer .footer-list .footer-row .footer-section:first-child > .footer-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -543,7 +550,7 @@ img {
   }
 }
 
-.footer .footer-list .footer-row .footer-section:first-child > div > div {
+.footer .footer-list .footer-row .footer-section:first-child > .footer-info > .footer-article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -556,7 +563,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  .footer .footer-list .footer-row .footer-section:first-child > div > div {
+  .footer .footer-list .footer-row .footer-section:first-child > .footer-info > .footer-article {
     padding-bottom: 16px;
   }
 }
@@ -566,13 +573,13 @@ img {
       flex-basis: 16.66667%;
 }
 
-.footer .footer-list .footer-row .footer-section:nth-child(2) > div, .footer .footer-list .footer-row .footer-section:last-child > div {
+.footer .footer-list .footer-row .footer-section:nth-child(2) > .footer-info, .footer .footer-list .footer-row .footer-section:last-child > .footer-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer .footer-list .footer-row .footer-section:nth-child(2) > div > div, .footer .footer-list .footer-row .footer-section:last-child > div > div {
+.footer .footer-list .footer-row .footer-section:nth-child(2) > .footer-info > .footer-article, .footer .footer-list .footer-row .footer-section:last-child > .footer-info > .footer-article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -583,7 +590,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  .footer .footer-list .footer-row .footer-section:nth-child(2) > div > div, .footer .footer-list .footer-row .footer-section:last-child > div > div {
+  .footer .footer-list .footer-row .footer-section:nth-child(2) > .footer-info > .footer-article, .footer .footer-list .footer-row .footer-section:last-child > .footer-info > .footer-article {
     padding-bottom: 16px;
   }
 }
