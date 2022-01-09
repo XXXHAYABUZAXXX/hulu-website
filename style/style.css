@@ -614,4 +614,11 @@ img {
   width: 20px;
   vertical-align: middle;
 }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
 /*# sourceMappingURL=style.css.map */
