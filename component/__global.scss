@@ -44,6 +44,7 @@ img {
   width: 100%;
 }
 
+// utility class
 .btn {
   display: inline-block;
   background: $clr-white;
@@ -62,6 +63,11 @@ img {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+.btn-dark {
+  background: $clr-black;
+  color: $clr-white;
 }
 
 .text-legal {
